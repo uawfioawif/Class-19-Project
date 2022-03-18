@@ -76,7 +76,7 @@ function spawnBranches() {
     branch = createSprite(Math.random() * 500, -30);
     branch.addImage("branch", branchImg);
     branch.velocityY = 2;
-    branch.debug = true;
+    branch.debug = false;
     branch.lifetime = 700;
     branchGroup.add(branch);
     branch.scale = 0.2;
